@@ -1,0 +1,124 @@
+.navbar {
+  background-color: #CBC0D8;
+  padding: 1.15rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #383738;
+}
+
+.nav-link {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg-img {
+  background-image: url("../crystaltree.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.fa-regular {
+  color: #66929B;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #765280;
+  --bs-btn-border-color: #765280;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #765280;
+  --bs-btn-hover-border-color: #765280;
+  --bs-btn-focus-shadow-rgb: 20, 130, 85;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #765280;
+  --bs-btn-active-border-color: #765280;
+  --bs-btn-active-shadow: inset 0 2px 4px black;
+  --bs-btn-disabled-color: #765280;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #765280;
+  --bs-gradient: none;
+}
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: 20rem;
+  margin-left: 1rem;
+  font-size: 2.35em;
+  font-weight: bold;
+  color: #383738;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  white-space: nowrap;
+  font-family: 'Yeseva One', cursive;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #765280 !important;
+}
+
+.mb-2 {
+  margin-bottom: 0 !important;
+  margin-top: auto;
+}
+
+a {
+  color: #765280;
+  text-decoration: none;
+}
+
+.btn-customize {
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(210, 194, 218) 0px 8px 28px;
+  padding: 12px 36px;
+  border-radius: 0px;
+  transition: all 0.5s ease 0s;
+  background: #765280;
+}
+
+.btn-shop {
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: #765280;
+  padding: 12px 36px;
+  border-radius: 0px;
+  transition: all 0.5s ease 0s;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #383738;
+  text-decoration: none;
+}
+
+:root {
+  --bs-font-sans-serif: 'Josefin Sans', sans-serif;
+  --bs-font-monospace: 'Josefin Sans', sans-serif;
+}
+
+.btn-primary {
+  --bs-btn-color: #383738;
+  --bs-btn-bg: #cbc0d9;
+  --bs-btn-border-color: #ced4da;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #66929b;
+  --bs-btn-hover-border-color: #ced4da;
+  --bs-btn-active-bg: #765280;
+  --bs-btn-active-border-color: #765280;
+}
+
+.btn{
+  --bs-btn-border-radius: 0;
+}
