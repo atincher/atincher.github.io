@@ -44,7 +44,7 @@
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: 28rem;
   margin-left: 0rem;
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #383738;
   text-decoration: none;
@@ -53,6 +53,12 @@
   text-decoration-color: currentcolor;
   white-space: nowrap;
   font-family: 'Yeseva One', cursive;
+}
+
+@media (min-width: 400px) {
+  .navbar-brand {
+    font-size: 2.0rem
+  }
 }
 
 .bg-primary {
